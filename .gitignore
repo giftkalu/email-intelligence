@@ -1,0 +1,16 @@
+# Secrets, never commit these
+credentials.json
+token.json
+.env
+
+# Your personal email data
+emails.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
