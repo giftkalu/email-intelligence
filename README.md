@@ -14,7 +14,7 @@ to pick up new mail, it skips emails already in the database.
    priority, filterable by category, with a link to open each email and a
    checkbox to mark it attended.
 3. `run.py` (or `start.bat` on Windows) runs both in sequence.
-
+```
 Gmail API
     │
     ▼
@@ -32,7 +32,7 @@ app_email.py
     │
     ▼
 Streamlit Dashboard
-
+```
 ## Setup
 
 ### 1. Gmail API access
