@@ -16,15 +16,21 @@ to pick up new mail, it skips emails already in the database.
 3. `run.py` (or `start.bat` on Windows) runs both in sequence.
 
 Gmail API
-    ↓
+    │
+    ▼
 process.py
-    ↓
-Gemini analysis
-    ↓
+    │
+    ├── Fetch & filter emails
+    ├── Send to Gemini
+    └── Store analysis
+    │
+    ▼
 SQLite (emails.db)
-    ↓
+    │
+    ▼
 app_email.py
-    ↓
+    │
+    ▼
 Streamlit Dashboard
 
 ## Setup
