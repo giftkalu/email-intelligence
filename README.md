@@ -85,4 +85,5 @@ First run opens a browser to grant read-only Gmail access and saves a
 - **Read-only**: Gmail scope is `gmail.readonly`. Nothing is ever sent or
   modified in your inbox, the dashboard only recommends and lets you mark
   things attended locally.
+  
 [![Email Intelligence Demo](thumbnail.png)](https://youtube.com/shorts/pMEWuHDCAVE?feature=share)
